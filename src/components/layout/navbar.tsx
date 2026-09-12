@@ -88,12 +88,12 @@ export function Navbar() {
                 </SheetClose>
                 
                 <nav className="flex flex-col space-y-6">
-                  <SheetClose nativeButton={false} render={<Link href="/" className="text-xl font-heading font-medium text-primary-foreground/90 transition-colors hover:text-white" />}>
+                  <SheetClose nativeButton={false} render={<Link href="/" className="text-lg md:text-xl font-heading font-medium text-primary-foreground/90 transition-colors hover:text-white" />}>
                     Home
                   </SheetClose>
                   
                   <div className="flex flex-col space-y-3">
-                    <span className="text-xl font-heading font-medium text-primary-foreground/90">Immigration</span>
+                    <span className="text-lg md:text-xl font-heading font-medium text-primary-foreground/90">Immigration</span>
                     <div className="pl-4 flex flex-col space-y-3 border-l border-primary-foreground/20">
                       {siteConfig.immigrationServices.map((service) => (
                         <SheetClose
@@ -107,11 +107,11 @@ export function Navbar() {
                     </div>
                   </div>
                   
-                  <SheetClose nativeButton={false} render={<Link href="/about" className="text-xl font-heading font-medium text-primary-foreground/90 transition-colors hover:text-white" />}>
+                  <SheetClose nativeButton={false} render={<Link href="/about" className="text-lg md:text-xl font-heading font-medium text-primary-foreground/90 transition-colors hover:text-white" />}>
                     About
                   </SheetClose>
                   
-                  <SheetClose nativeButton={false} render={<Link href="/resources" className="text-xl font-heading font-medium text-primary-foreground/90 transition-colors hover:text-white" />}>
+                  <SheetClose nativeButton={false} render={<Link href="/resources" className="text-lg md:text-xl font-heading font-medium text-primary-foreground/90 transition-colors hover:text-white" />}>
                     Resources
                   </SheetClose>
                 </nav>

@@ -8,10 +8,10 @@ import { faqs } from "@/content/faq";
 
 export function FAQSection() {
   return (
-    <section className="py-24 bg-muted/30">
+    <section className="py-16 md:py-24 bg-muted/30">
       <div className="container mx-auto px-4 max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground mb-4">
+          <h2 className="font-heading text-2xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Common Questions
           </h2>
           <p className="text-lg text-muted-foreground">

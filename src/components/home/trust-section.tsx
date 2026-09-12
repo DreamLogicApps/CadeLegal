@@ -35,11 +35,11 @@ export function TrustSection() {
 
       <div className="container relative z-10 mx-auto px-4">
         <FadeIn className="text-center max-w-3xl mx-auto mb-20">
-          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
+          <h2 className="font-heading text-2xl md:text-4xl lg:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
             Why Choose Cade Legal
           </h2>
           <div className="w-20 h-0.5 bg-gold mx-auto mb-8 opacity-60" />
-          <p className="text-xl text-white/70 leading-relaxed font-light">
+          <p className="text-lg md:text-xl text-white/70 leading-relaxed font-light">
             Navigating the U.S. immigration system requires more than just filling out forms. It demands strategic foresight, meticulous preparation, and a trusted advocate.
           </p>
         </FadeIn>

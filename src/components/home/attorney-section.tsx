@@ -9,7 +9,7 @@ export function AttorneySection() {
   return (
     <section className="py-32 bg-background border-y border-border/40 overflow-hidden">
       <div className="container mx-auto px-4 max-w-7xl">
-        <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
+        <div className="flex flex-col lg:flex-row items-center gap-10 md:gap-16 lg:gap-24">
           
           <FadeIn className="w-full lg:w-5/12 relative" direction="right">
             <div className="relative aspect-[4/5] z-10">
@@ -30,7 +30,7 @@ export function AttorneySection() {
           <div className="w-full lg:w-7/12">
             <StaggerContainer staggerChildren={0.1}>
               <StaggerItem>
-                <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-4 tracking-tight">
+                <h2 className="font-heading text-2xl md:text-4xl lg:text-5xl lg:text-6xl font-bold text-foreground mb-4 tracking-tight">
                   {attorneyData.name}
                 </h2>
               </StaggerItem>

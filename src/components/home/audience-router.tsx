@@ -34,12 +34,12 @@ export function AudienceRouter() {
   ];
 
   return (
-    <section className="py-24 bg-muted/20 relative">
+    <section className="py-16 md:py-24 bg-muted/20 relative">
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-border to-transparent" />
       
       <div className="container mx-auto px-4">
         <FadeIn className="text-center mb-16">
-          <h2 className="font-heading text-3xl md:text-5xl font-bold text-foreground">
+          <h2 className="font-heading text-2xl md:text-4xl lg:text-5xl font-bold text-foreground">
             What brings you here?
           </h2>
           <p className="mt-6 text-muted-foreground text-lg md:text-xl max-w-2xl mx-auto">

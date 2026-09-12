@@ -30,10 +30,10 @@ export function ProcessSection() {
     <section className="py-32 bg-background relative overflow-hidden">
       <div className="container mx-auto px-4">
         <FadeIn className="text-center max-w-3xl mx-auto mb-24">
-          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 tracking-tight">
+          <h2 className="font-heading text-2xl md:text-4xl lg:text-5xl lg:text-6xl font-bold text-foreground mb-6 tracking-tight">
             A Clearer Path Forward
           </h2>
-          <p className="text-xl text-muted-foreground leading-relaxed font-light">
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light">
             Our systematic approach is designed to reduce anxiety and provide absolute clarity at every step of your immigration journey.
           </p>
         </FadeIn>
@@ -55,7 +55,7 @@ export function ProcessSection() {
                   </div>
                   
                   <div className="md:text-center pr-8 md:pr-0">
-                    <h3 className="font-heading text-xl font-bold mb-4 tracking-tight">
+                    <h3 className="font-heading text-lg md:text-xl font-bold mb-4 tracking-tight">
                       {step.title}
                     </h3>
                     <p className="text-muted-foreground text-base leading-relaxed font-light">

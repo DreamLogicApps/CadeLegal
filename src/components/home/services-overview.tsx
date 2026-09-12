@@ -15,10 +15,10 @@ export function ServicesOverview() {
       <div className="container mx-auto px-4 max-w-7xl">
         <FadeIn className="text-center max-w-3xl mx-auto mb-20">
           <span className="text-gold uppercase tracking-widest text-sm font-semibold mb-4 block">Our Practice Areas</span>
-          <h2 className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight text-foreground">
+          <h2 className="font-heading text-2xl md:text-4xl lg:text-5xl lg:text-6xl font-bold mb-6 tracking-tight text-foreground">
             Comprehensive Immigration Services
           </h2>
-          <p className="text-xl text-muted-foreground leading-relaxed font-light">
+          <p className="text-lg md:text-xl text-muted-foreground leading-relaxed font-light">
             We provide strategic counsel across all major U.S. immigration categories.
           </p>
         </FadeIn>
