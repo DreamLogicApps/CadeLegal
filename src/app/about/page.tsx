@@ -23,7 +23,7 @@ export default function AboutPage() {
       <section className="py-24 bg-background">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row items-start gap-12 lg:gap-20">
-            <div className="w-full lg:w-1/3 relative sticky top-32">
+            <div className="w-full lg:w-1/3 relative lg:sticky lg:top-32">
               <div className="aspect-[4/5] relative rounded-2xl overflow-hidden bg-muted border border-border">
                 {/* Fallback to placeholder if image fails or isn't available */}
                 <div className="absolute inset-0 flex items-center justify-center bg-secondary/50 text-secondary-foreground p-8 text-center">
